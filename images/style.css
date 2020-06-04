@@ -1,0 +1,25 @@
+body{
+    background-color:grey;
+}
+
+input[type="number"]{
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-left: 30px;
+    font-size: larger;
+    outline: none;
+    background: #5e5e5e;
+    color: white;
+}
+.gaff{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    color: #fff;
+}
+input[type="number"]::placeholder{
+    color: #FFF;
+}
